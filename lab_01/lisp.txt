@@ -1,0 +1,13 @@
+(cons '1 (cons (cons '2 (cons '3 Nil)) (cons (cons '4 (cons ((cons '5 (cons Nil (cons '6 Nil))) '(7))) (cons '8 (cons(cons '9 '(a)) '(b)))))))
+
+(cons '4 (cons (cons '5 (cons Nil '(6))) '(7)))
+
+(cons (cons '5 (cons Nil (cons '6 Nil))) (cons '7 Nil))
+
+(cons '4 (cons (cons '5 (cons Nil (cons '6 Nil))) (cons '7 Nil)))
+
+(cons (cons '4 (cons (cons '5 (cons Nil (cons '6 Nil))) (cons '7 Nil))) (cons '8 (cons (cons '9 (cons 'a Nil)) (cons 'b Nil))))
+
+(cons (cons '2 (cons '3 Nil)) (cons (cons '4 (cons (cons '5 (cons Nil (cons '6 Nil))) (cons '7 Nil))) (cons '8 (cons (cons '9 (cons 'a Nil)) (cons 'b Nil)))))
+
+(cons '1 (cons (cons '2 (cons '3 Nil)) (cons (cons '4 (cons (cons '5 (cons Nil (cons '6 Nil))) (cons '7 Nil))) (cons '8 (cons (cons '9 (cons 'a Nil)) (cons 'b Nil))))))
